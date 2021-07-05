@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css">
+  <link rel="stylesheet" href="./hello.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="./hi.js"></script>
+</head>
+
+<body>
+
+  <div id="grad1">
+    <h1 style="padding: 80px;  text-align: center;">HELLO RACHNA BHARTI</h1>
+  </div>
+
+  <div class="menu">
+    <ul>
+      <li><a class="active" href="./web.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="./bio-data.html">BioD ata</a></li>
+    </ul>
+  </div>
+
+
+<section class="container-fluid">
+
+  <div class="gallery">
+    <img src="one.jpg" width="500" height="500">
+
+    <div class="desc"></div>
+  </div>
+
+  <div class="gallery">
+    <img src="two.jpg" width="500" height="500">
+
+    <div class="desc"></div>
+  </div>
+
+  <div class="gallery">
+    <img src="three.jpg" width="500" height="500">
+
+    <div class="desc"></div>
+  </div>
+
+
+  <div class="gallery">
+    <img src="four.jpg" width="500" height="500">
+
+    <div class="desc"></div>
+  </div>
+</section>
+
+
+
+
+    <div class="container-fluid">
+    <h2>search the list Table</h2>
+    <p>Type something in the input field to search the table for first names, last names or emails:</p>
+    <input class="form-control" id="myInput" type="text" placeholder="Search..">
+
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody id="myTable">
+        <tr>
+          <td>Rachna</td>
+          <td>Bharti</td>
+          <td>therachnabharti@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Rashmi</td>
+          <td>Rani</td>
+          <td>Rani@mail.com</td>
+        </tr>
+        <tr>
+          <td>Rekha</td>
+          <td>Kumari</td>
+          <td>kumari@greatstuff.com</td>
+        </tr>
+        <tr>
+          <td>Ayan</td>
+          <td>maurya</td>
+          <td>a_r@test.com</td>
+        </tr>
+        <tr>
+          <td>Ranjit</td>
+          <td>kumar</td>
+          <td>kumar@test.com</td>
+        </tr>
+        <!-- <td style="float: left;"></td> -->
+
+
+
+      </tbody>
+    </table>
+
+    <p>Note that we start the search in tbody, to prevent filtering the table headers.</p>
+  </div>
+</body>
+
+</html>

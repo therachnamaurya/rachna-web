@@ -1,0 +1,56 @@
+#grad1 {
+    height: 200px;
+    background-color: rebeccapurple;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(pink, skyblue);
+  }
+
+  .menu ul {
+    list-style-type: none;
+    padding: 6px;
+    overflow: hidden;
+    background-color: green;
+  }
+
+  .menu li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: blue;
+  }
+
+  .gallery-container{
+    width: 100%;
+    margin: 0px 20px;
+  }
+
+  div.gallery {
+    margin: 16px 1px;
+    border: 2px solid #ccc;
+    /* float: left; */
+    width: 24%;
+    display: inline-block;
+  }
+
+  div.gallery:hover {
+    border: 2px gold;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding: 25px;
+    text-align: center;
+  }
